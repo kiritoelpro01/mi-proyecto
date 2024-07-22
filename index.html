@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitch Categories Recent Account</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0e0e10;
+            color: white;
+        }
+        header {
+            background-color: #4B0082;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 100;
+            box-sizing: border-box;
+        }
+        header img {
+            height: 30px;
+        }
+        nav {
+            display: flex;
+            align-items: center;
+            flex-grow: 1;
+            justify-content: flex-start;
+        }
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .search-bar {
+            display: flex;
+            align-items: flex-start;
+            width: 40%;
+            margin: 0px 200px;
+        }
+        .search-bar input {
+            width: 100%;
+            padding: 5px;
+            border: none;
+            border-radius: 4px;
+            background-color: #333;
+            color: white;
+        }
+        .profile-section {
+            display: flex;
+            align-items: center;
+        }
+        .profile-section img {
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+        .profile-section a {
+            color: white;
+            text-decoration: none;
+        }
+        .profile-section a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 84px 20px 20px 20px; 
+        }
+        .category {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-bottom: 40px;
+        }
+        .category div {
+            flex: 1 1 28%;
+            background-color: #18181b;
+            margin: 10px;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .category img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .category h3 {
+            margin: 10px 0 5px 0;
+            font-size: 18px;
+        }
+        .category p {
+            font-size: 14px;
+            color: #b3b3b3;
+        }
+        footer {
+            background-color: #18181b;
+            text-align: center;
+            padding: 10px 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="./images/Imagen_de_WhatsApp_2024-07-18_a_las_10.56.28_26699d0e-removebg-preview.png" alt="Logo de Twitch">
+        <nav>
+            <a href="#home"><i class="fas fa-home"></i> Home</a>
+            <a href="#browse"><i class="fas fa-compass"></i> Explore</a>
+            <a href="#about"><i class="fas fa-info-circle"></i> About</a>
+            <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search">
+        </div>
+        <div class="profile-section">
+            <img src="./images/blank-profile-picture-973460_1280.webp" alt="Profile Picture">
+            <a href="#login">Login</a>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Explorar Categorías</h1>
+        <div class="category">
+            <div>
+                <img src="./images/QE66IBV9GMG21717019588956.webp" alt="Categoria 1">
+                <h3>Warzone</h3>
+                <p>FPS Shooter Action</p>
+            </div>
+            <div>
+                <img src=".//images/5fa91dbc37517.png" alt="Categoría 2">
+                <h3>Valorant</h3>
+                <p>FPS Shooter Action</p>
+            </div>
+            <div>
+                <img src="./images/landscape_comp.jpeg" alt="Categoría 3">
+                <h3>Fortnite</h3>
+                <p>Shooter RPG</p>
+            </div>
+        </div>
+        <h1>In Live</h1>
+        <div class="category">
+            <div>
+                <img src="./images/thegrefg-cabreo.gif" alt="Canal 1">
+                <h3>The Grefg</h3>
+                <p>Hola, me llamo David aunque la gente me llama "TheGrefg" y me gusta crear contenido con PASIÓN =) Business: contact@thegrefg.com</p>
+            </div>
+            <div>
+                <img src="./images/kai-cenat-money-dance.gif" alt="Canal 2">
+                <h3>KaiCenat</h3>
+                <p>Come Through & Watch These Litt STREAMS!</p>
+            </div>
+            <div>
+                <img src="./images/ibai-yo-explicando.gif" alt="Canal 3">
+                <h3>Ibai Llanos</h3>
+                <p>Si lees esto que sepas que te aprecio</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
